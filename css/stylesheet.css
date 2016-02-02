@@ -1,0 +1,229 @@
+  #sidebar 
+{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 16.66%;
+  height:90%;
+  border-right:1px solid #aaa;
+  background-image: url("../img/tweed.png");
+  color: #FF9933;
+  font-family: futura;
+  line-height: 200%;
+  padding:0px;
+  margin: 0px;
+  text-align: center;
+}
+
+#expandlist
+{
+	color: #FF9933;
+}
+#side-list
+{
+	width: 16.66%;
+  position: fixed;
+	color:  #FF9933;
+}
+
+#navlink
+{
+	color:  #FF9933;
+}
+
+#current-page
+{
+	background: rgba(200, 54, 54, 0.5);
+  left: 0%;
+/*	width:16.66%;
+  position:fixed;*/
+}
+
+#footer 
+{
+  position: fixed;
+  bottom:0%;
+  height:10%;
+  right:0px;
+  width: 100%;
+  border-right:1px solid #aaa;
+  background-color: black;
+  color: #FFFFF2;
+  font-family: futura;
+  line-height: 200%;
+  padding:0px;
+  margin: 0px;
+  text-align: center;
+}
+
+.container
+{
+  position: relative ;
+  margin-top: 1%;
+}
+
+#header
+{
+	color: #FFFFF2;
+	background-color: black;
+  	font-family: futura;
+  	text-align: center;
+}
+
+.progress-bar-info
+{
+	width: 60%;
+}
+
+.progress-bar-success
+{
+	width: 85%;
+}
+.progress-bar-warning
+{
+	width: 39%;
+}
+
+.well
+{
+  background-color: rgba(0, 0, 0, 0.75);
+}
+/*rgba(245, 245, 245, 0.83);*/
+
+#footer img
+{
+	height:80%;
+} 
+
+#content 
+{
+  margin: 0 40px 40px 280px;		
+  left: 16.67%;
+  width: 83.33%;
+  color: #FFFFF2;
+  font-family: Lucida Console ;
+  font-size: 15px;
+}
+
+ul 
+{
+	list-style: none;
+}
+
+#toggle-view
+{
+	
+	font-size: 13px;
+}
+
+#toggle-view a
+{
+  color:#FFFFF2;
+}
+
+.spacing
+{
+  height:70px;
+}
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   height: 170px;
+   width: 100%;
+   border:1px  solid;
+   background: white;
+   }
+
+   .fade:hover {
+      opacity: 0.25;
+      }
+
+
+      /* Uncomment everything commented to CSS for the hide/show */
+
+.gallery {
+    width: 25em;
+    margin: 2em auto;
+}
+
+.gallery-item {
+    
+    /*float: left;*/
+    opacity: : 1;
+    /*  margin-bottom: 2em;*/
+    position: relative;
+    transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   height: 170px;
+   width: 100%;
+   /*border:1px  solid;*/
+   background: #FFFFF2;
+}
+
+    .gallery-item:first-child {
+        margin-right: 2.762430939%;
+    }
+
+.gallery-item img {
+  height: 170px;
+    width: 100%;
+}
+
+.gallery-item:hover .img-title 
+{
+    opacity: 0.92;
+}
+
+.img-title {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    /*display: none;  comment this out for CSS hover */
+    background-color: #333;
+    transition: all 0.5s ease;
+}
+
+#banner img
+{
+  width: 100%;
+  height: 2%;
+  
+}
+
+.img-title h6,h4{
+    position: relative;
+    color: #fff;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+}
+
+.img-title h5,h3,h1,h2 {
+    position: relative;
+    color: #fff;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.blackbg
+{
+  background: black;
+}
+
+.whitelink
+{
+  color: #FFFFF2;
+}
